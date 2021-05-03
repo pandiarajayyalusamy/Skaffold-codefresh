@@ -1,0 +1,5 @@
+Execute the below mentioned commands to run the Docker file
+
+docker build -t openam . 
+<--followed by-->
+docker run --name openam -p 8080:8080 -v $PWD/openam-configuration:/home/forgerock/openam/ openam

@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: openam
-    image: pandiaraja2/open65
+    image: {{image}}
 ---
 apiVersion: v1
 kind: Service

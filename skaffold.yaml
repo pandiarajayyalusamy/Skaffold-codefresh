@@ -4,7 +4,7 @@ metadata:
   name: openam
 build:
   artifacts:
-  - image: {{image}}
+  - image: pandiaraja2/open70
     docker:
       dockerfile: Dockerfile
 deploy:

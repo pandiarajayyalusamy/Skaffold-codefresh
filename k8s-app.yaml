@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: openam
-    image: pandiaraja2/open70
+    image: "pandiaraja2/open70"
     
 ---
 apiVersion: v1
